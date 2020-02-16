@@ -5,5 +5,6 @@
 
 include::01-introduction.adoc[]
 include::02-grammar.adoc[]
-include::03-web-design.adoc[]
-include::04-book-design.adoc[] 
+include::03-voice.adoc[]
+include::04-web-design.adoc[]
+include::05-book-design.adoc[]
