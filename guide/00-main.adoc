@@ -1,0 +1,9 @@
+= People's Liberation Training Committee Style Guide
+:toc: left
+:imagesdir: ../../img
+:leveloffset: +1
+
+include::01-introduction.adoc[]
+include::02-grammar.adoc[]
+include::03-web-design.adoc[]
+include::04-book-design.adoc[] 
