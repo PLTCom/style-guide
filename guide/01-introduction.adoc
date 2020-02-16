@@ -5,8 +5,8 @@ The goal of this document is to provide guidance on how to write for the People'
 === Grammar
 The first section will cover grammar and other technical aspects of writing. Consistent and correct grammar in each published language is important when communicating and teaching.
 
-=== Voice
-How we write to our audience is just as important as what we write. This section will cover our voice, audience, and writing sytle. Who we are writing to and how we say it.
+=== Style
+How we write to our audience is just as important as what we write. This section will cover our audience, and writing sytle. Who we are writing to and how we say it.
 
 === Book Design
 This section will cover the layout and formatting of books, manuals, and other print and print style publications. This will cover student and instructor manuals, as well as physical handouts.
