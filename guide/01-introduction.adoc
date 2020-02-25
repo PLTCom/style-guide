@@ -13,3 +13,11 @@ This section will cover the layout and formatting of books, manuals, and other p
 
 === Web Desgin
 This section will cover the layout and formatting of web based publications. While manuals will also be published on the web, this section is focused on web pages, articles, slide decks, and other web native content.
+
+=== Print Design
+This section will cover the layout and formatting of printed publications, such as pamphlets, post cards, handouts, etc.
+
+== General guidelines
+* Use version control wherever possible, such as Git for text based materials.
+* Use Asciidoc and similar widespread, easy to learn markup languages for manuals and other books.
+* Use open source formats when necessary, such as the Libre Office formats for slides.
