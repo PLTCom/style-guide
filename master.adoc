@@ -1,8 +1,11 @@
 = People's Liberation Training Committee Style Guide
 :toc: left
-:imagesdir: ../../img
+:imagesdir: ./img
 :leveloffset: +1
 :doctype: book
+:logo-pic: pltcom-logo-small.png
+
+image::{logo-pic}[]
 
 include::01-introduction.adoc[]
 include::02-grammar.adoc[]
