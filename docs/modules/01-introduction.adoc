@@ -21,3 +21,11 @@ This section will cover the layout and formatting of printed publications, such 
 * Use version control wherever possible, such as Git for text based materials.
 * Use Asciidoc and similar widespread, easy to learn markup languages for manuals and other books.
 * Use open source formats when necessary, such as the Libre Office formats for slides.
+
+== Related Resources
+* https://www.chicagomanualofstyle.org/book/ed17/frontmatter/toc.html[The Chicago Manual of Style]
+* https://developer.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html[Gnome Project Style Guide]
+* https://www.ibm.com/developerworks/library/styleguidelines/[IBM Style Guide]
+* https://www.writethedocs.org/guide/writing/style-guides/[Red Hat Style Guide]
+* https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/University%20of%20Oxford%20Style%20Guide.pdf[Oxford Style Guide]
+* https://ptgmedia.pearsoncmg.com/images/9780735648715/samplepages/9780735648715.pdf[Microsoft Style Guide]
