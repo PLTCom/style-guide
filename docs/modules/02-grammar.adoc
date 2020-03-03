@@ -1,4 +1,35 @@
 = Grammar
+The following section will describe a few common grammar issues, as well as set the standards where grammar rules are ambiguous or neutral.
 
 == Active Voice
-Write 
+Wherever possible, make sure that you write in the active voice ("Hand the student the dummy round.") instead of passive ("The dummy round can be handed..."). There will be some situations where the passive voice is necessary, typically when the focus of the sentence should be the actor or subject, rather than the action or verb.
+
+== Agreement
+Always ensure the parts of a sentence coordinate correctly. In English there are two types of agreement, _subject-verb agreement_ and _pronoun-antecedent agreement_. While subject-verb agreement is beyond the scope of this manual, make sure that you follow standard English rules.
+
+=== Pronoun-Antecendent Agreement
+The important part of pronoun-antecendent agreement is to make sure that nouns are used with singular or plural pronouns as appropriate.
+* Singular nouns must be refered to with singular pronouns.
+* Plural nouns must be referred to with plural pronouns.
+* Collective nouns must be referred to with singular pronouns.
+
+==== They/Them
+Contrary to many proscriptive grammar guides, they and them can be used as singular pronouns. This has been the case for hundreds of years, and is much easier to understand than overly formal and complex _his or her_ formations. Using they/them also has the advantage of being gender neutral.
+
+== Sentence Structure
+
+=== Sentence Length
+Keep sentences short and focused, without falling into a telegraphic style. Avoid run on sentences and sentence fragments wherever possible. Do not use uneccessary adjectives and adverbs.
+
+=== Ambiguity
+Avoid ambiguous phrasing. A good example is "you should then insert the dummy round in the chamber", where _should_ can be unclear. Instead use "insert the dummy round in the chamber".
+
+== Contractions and Abbreviations
+Do not use contractions or abbreviations when writing formal documents. For example, _can't_ should be written _cannot_, and _i.e._ should be _that is_. 
+
+== Punctuation
+The full usage of punctuation is outside the scope of this guide, but here are a few key points:
+* Do not overuse commas, but do use the Oxford Comma.
+* Do not use exclamation points uneccesarily. This is not a chat.
+* Consistently punctuate lists like this one; use periods for lists of sentences and avoid them for lists of items.
+* Be consistent with the usage of _italics_, **bold type**, and parenthesis.
