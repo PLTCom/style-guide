@@ -1,4 +1,4 @@
-= People's Liberation Training Committee Style Guide
+= Style Guide: People's Liberation Training Committee 
 include::attributes.adoc[]
 
 include::docs/assembly.adoc[]
