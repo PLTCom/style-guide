@@ -1,0 +1,60 @@
+[id="book-design_{context}"]
+= Book Design
+This section will cover books and manuals. All books should be written in asciidoc and follow the relevant best practices for formatting.
+
+[id="document-structure_{context}"]
+== Document Structure
+Documents should be _modular_, with major sections such as chapters contained within separate files. Module or chapter names should start with a number representing the order they are pulled into the master file. See below for the recommended structure.
+
+.File Structure
+----
+.
+├── attributes.adoc <-- File with attributes for the whole book.
+├── docs <-- Directory with assemblies and modules.
+│   ├── assembly-1.adoc <-- Assembly files with include statements for modules.
+│   └── modules (chapters)
+│       ├── 01-chapter1.adoc <-- Module files.
+│       ├── 02-chapter2.adoc
+│       ├── 03-chapter3.adoc
+│       └── 04-chapter4.adoc
+└── master.adoc <-- Master file that defines the whole book.
+----
+
+Module or chapter level sections should be tagged with an asciidoc anchor.
+
+.Asciidoc Anchor
+----
+[id="anchor-name_{context}"]
+= Section Title
+----
+
+=== Asciidoc Settings
+
+=== Cover Design
+
+[id="tables_{context}"]
+== Tables
+
+[id="images_{context}"]
+== Images
+
+=== Logos
+Logos should be sized appropriately from vector or web formats, such as SVG or PNG. Use variables instead of filenames so that the logo can be switched out for different publishers.
+
+.Logo Variable Example
+----
+= Document Title
+:logo-pic: logo.png
+
+...
+
+[#logo]
+.Logo
+image::{logo-pic}[logo,]
+----
+
+[id="additional-reading_{context}"]
+== Additional Reading
+* https://asciidoctor.org/docs/user-manual[Asciidoctor User Manual]
+* https://asciidoctor.org/docs/asciidoc-writers-guide[Asciidoctor Writer's Guide]
+* https://asciidoctor.org/docs/asciidoctor-pdf/[Asciidoctor PDF]

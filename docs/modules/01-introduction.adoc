@@ -1,0 +1,32 @@
+= Introduction
+The goal of this document is to provide guidance on how to write for the People's Liberation Training Committee. The style guide aims to cover everything from web based articles and features to training manuals and handouts, providing clear guidelines on design, voice, and content.
+
+== Sections
+
+=== Grammar
+The first section will cover grammar and other technical aspects of writing. Consistent and correct grammar in each published language is important when communicating and teaching.
+
+=== Style
+How we write to our audience is just as important as what we write. This section will cover our audience, and writing sytle. Who we are writing to and how we say it.
+
+=== Book Design
+This section will cover the layout and formatting of books, manuals, and other print and print style publications. This will cover student and instructor manuals, as well as physical handouts.
+
+=== Web Desgin
+This section will cover the layout and formatting of web based publications. While manuals will also be published on the web, this section is focused on web pages, articles, slide decks, and other web native content.
+
+=== Print Design
+This section will cover the layout and formatting of printed publications, such as pamphlets, post cards, handouts, etc.
+
+== General guidelines
+* Use version control wherever possible, such as Git for text based materials.
+* Use Asciidoc and similar widespread, easy to learn markup languages for manuals and other books.
+* Use open source formats when necessary, such as the Libre Office formats for slides.
+
+== Related Resources
+* https://www.chicagomanualofstyle.org/book/ed17/frontmatter/toc.html[The Chicago Manual of Style]
+* https://developer.gnome.org/gdp-style-guide/2.32/gdp-style-guide.html[Gnome Project Style Guide]
+* https://www.ibm.com/developerworks/library/styleguidelines/[IBM Style Guide]
+* https://www.writethedocs.org/guide/writing/style-guides/[Red Hat Style Guide]
+* https://www.ox.ac.uk/sites/files/oxford/media_wysiwyg/University%20of%20Oxford%20Style%20Guide.pdf[Oxford Style Guide]
+* https://ptgmedia.pearsoncmg.com/images/9780735648715/samplepages/9780735648715.pdf[Microsoft Style Guide]
