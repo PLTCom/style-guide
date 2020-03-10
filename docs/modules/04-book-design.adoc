@@ -1,0 +1,109 @@
+[id="book-design_{context}"]
+= Book Design
+This section will cover books and manuals. All books should be written in asciidoc and follow the relevant best practices for formatting.
+
+[id="document-structure_{context}"]
+== Document Structure
+Documents should be _modular_, with major sections such as chapters contained within separate files. Module or chapter names should start with a number representing the order they are pulled into the master file. See below for the recommended structure.
+
+.File Structure
+----
+.
+├── attributes.adoc <-- File with attributes for the whole book.
+├── docs <-- Directory with assemblies and modules.
+│   ├── assembly-1.adoc <-- Assembly files with include statements for modules.
+│   └── modules (chapters)
+│       ├── 01-chapter1.adoc <-- Module/chapter files.
+│       ├── 02-chapter2.adoc
+│       ├── 03-chapter3.adoc
+│       └── 04-chapter4.adoc
+├── img
+│   └── image.png
+├── LICENSE
+├── master.adoc <-- Master file that defines the whole book.
+└── README.adoc
+----
+
+Module or chapter level sections should be tagged with an asciidoc anchor.
+
+.Asciidoc Anchor
+----
+[id="anchor-name_{context}"]
+= Section Title
+----
+
+=== Asciidoc Settings
+Define all top level settings and variables in the `attributes.adoc` file.
+
+.Example attributes.adoc
+----
+:toc: left
+:imagesdir: ./img
+:leveloffset: +1
+:doctype: book
+:logo-pic: pltcom-logo-small.png
+:title-logo-image: image:{logo-pic}[]
+----
+
+=== Cover Design
+Keep covers simple and clear. The Title should be centered with no more than one graphic. Define the image with a variable.
+
+.Example Cover Attributes
+----
+:doctype: book
+:logo-pic: pltcom-logo-small.png
+:title-logo-image: image:{logo-pic}[]
+----
+
+== Literal and Code Blocks
+Use literal blocks whenever the formatting of the text must be exact. Always label literal or code blocks.
+
+.Example Code Block
+----
+ .Code Block Label
+ ----
+ Some Code
+ ----
+----
+
+[id="tables_{context}"]
+== Tables
+* Always label tables.
+* Always have a header row.
+
+.Example Table
+----
+.Table 1
+|===
+| Header1 | Header2
+
+| info | info
+|===
+----
+
+[id="images_{context}"]
+== Images
+* Keep all images in a single directory, specified by the `:imagesdir:` directive in the attributes.adoc file. 
+* Do not use Copyrighted images without permission.
+* Use vector graphics where possible, otherwise use PNG.
+
+=== Logos
+Logos should be sized appropriately from vector or web formats, such as SVG or PNG. Use variables instead of filenames so that the logo can be switched out for different publishers.
+
+.Logo Variable Example
+----
+= Document Title
+:logo-pic: logo.png
+
+...
+
+[#logo]
+.Logo
+image::{logo-pic}[logo,]
+----
+
+[id="additional-reading_{context}"]
+== Additional Reading
+* https://asciidoctor.org/docs/user-manual[Asciidoctor User Manual]
+* https://asciidoctor.org/docs/asciidoc-writers-guide[Asciidoctor Writer's Guide]
+* https://asciidoctor.org/docs/asciidoctor-pdf/[Asciidoctor PDF]
